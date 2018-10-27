@@ -23,7 +23,8 @@ end
     
     
 def printer
-  batch_badge_creator.each
+  batch_badge_creator.each do |name|
+    
 end
 
 
