@@ -23,18 +23,6 @@ end
     
     
 def printer
-  x = 0
-  while x < badge_messages.length
-  puts badge_messages[0]
-  x += 1
-  end
-  
-  x = 0
-  while x < empty.length
-  puts empty[0]
-  x += 1
-  end
-  
   
 end
 
