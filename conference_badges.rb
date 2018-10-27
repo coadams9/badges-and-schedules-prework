@@ -24,11 +24,13 @@ end
     
 def printer
   batch_badge_creator.each do |name|
-    puts badge
+    puts name
   end
   
   
-  
+  assign_rooms.each do |room|
+    puts room
+  end
 end
 
 
